@@ -77,7 +77,7 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
    
    Tela principal do app, onde é possivel ver os cadastros e pesquisar por eles.
    
-![Texto Alternativo](https://github.com/Kist19/AppCalculaSalario/blob/master/telaprincipal_appcalculasalario.jpg?raw=true)
+![Texto Alternativo](https://github.com/Kist19/appCompras/blob/main/telaprincipal_appcompras.jpg?raw=true)
 
 ## 👨‍💻 Desenvolvedores
 
@@ -85,4 +85,4 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
  ## ✅ Licença 
  
- [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Kist19/AppCalculaSalario/blob/master/LICENSE)
+ [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Kist19/appCompras/blob/main/LICENSE)
