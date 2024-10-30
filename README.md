@@ -1,15 +1,14 @@
-# **App Agenda**
+# **App Compras**
 
-> Aplicativo que cadastra e lista seus usuários.
+> Aplicativo que soma o valor das compras.
 
 ## 📱 Descrição
 
-O **App Agenda** solicita a entrada de dados e lista-os na tela principal.
+O **App Compras** soma o valor das compras.
 
 ## 🔧 Funcionalidades
 
-- [x] Entrada de dados (Nome, CPF e Telefone)
-- [x] Pesquisa de usuários
+- [x] Cálculo da soma das compras
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -17,8 +16,8 @@ O **App Agenda** solicita a entrada de dados e lista-os na tela principal.
 - [x] **Android Studio** (Koala | 2024.1.2)
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
-- [x] **TextView**, **EditText**, **ListView** para entrada e exibição de dados
-- [x] **Menu** para cadastrar e pesquisar usuário
+- [x] **TextView**, **EditText**, **CheckButton** para entrada e exibição de dados
+- [x] **Button** para calcular a soma
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -73,9 +72,9 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
  
  ## 🖥️ Telas do Aplicativo
 
-1. **Tela Principal**
+## 1. Tela Principal
    
-   Tela principal do app, onde é possivel ver os cadastros e pesquisar por eles.
+   Onde o cliente faz a escolha dos produtos e ao final, o app faz a somatória.
    
 ![Texto Alternativo](https://github.com/Kist19/appCompras/blob/main/telaprincipal_appcompras.jpg?raw=true)
 
