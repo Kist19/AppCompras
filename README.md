@@ -41,16 +41,13 @@ Siga os passos abaixo para rodar o projeto localmente:
 │   ├── src
 │   │   ├── main
 │   │   │  ├── java/br/ulbra/appcompras
-│   │   │  │  ├── ComprasActivity.java     # Atividade principal com items para compra
+│   │   │  │  ├── ComprasActivity.java     # Atividade principal appCompras
 │   │   │  ├──res
 │   │   │  │   ├── layout
 │   │   │  │   │   ├── activity_main.xml   #Layout da tela principal
-│   │   │  
-│   └── values
-│   │   │  
-│       ├──strings.xml                     # Strings usadas no app
-│   │   │  
-│       ├── colors.xml                     # Cores definidas no projeto
+│   │   │  │   └── values
+│   │   │  │       ├──strings.xml                     # Strings usadas no app
+│   │   │  │       ├── colors.xml                     # Cores definidas no projeto
 │   └── build.gradle                       # Configuração do Gradle
 └── README.md                              # Este arquivo
 ```
