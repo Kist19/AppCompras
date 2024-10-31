@@ -1,14 +1,15 @@
 # **App Compras**
 
-> Aplicativo que soma o valor das compras.
+> Aplicativo que soma o valor dos produtos selecionados.
 
 ## 📱 Descrição
 
-O **App Compras** soma o valor das compras.
+O **App Compras** registra a seleção dos produtos, logo após soma os valores da compra atravez do botão **Fechar pedido**.
 
 ## 🔧 Funcionalidades
 
-- [x] Cálculo da soma das compras
+- [x] Cálculo da soma da compra
+- [x] Seleção de item de compra
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -16,8 +17,8 @@ O **App Compras** soma o valor das compras.
 - [x] **Android Studio** (Koala | 2024.1.2)
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
-- [x] **TextView**, **EditText**, **CheckButton** para entrada e exibição de dados
-- [x] **Button** para calcular a soma
+- [x] **TextView**, **EditText**, **CheckBox** e **AlertDialog** para entrada e exibição de dados
+- [x] **Button** para calcular a soma da compra
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -39,30 +40,19 @@ Siga os passos abaixo para rodar o projeto localmente:
 ├── app
 │   ├── src
 │   │   ├── main
-│   │   │  ├── java/com/example/imccalculator
-│   │   │  │  ├── MainActivity.java # Atividade principal com cálculo do IMC
+│   │   │  ├── java/br/ulbra/appcompras
+│   │   │  │  ├── ComprasActivity.java     # Atividade principal com items para compra
 │   │   │  ├──res
 │   │   │  │   ├── layout
 │   │   │  │   │   ├── activity_main.xml   #Layout da tela principal
 │   │   │  
 │   └── values
-
-
 │   │   │  
-│       ├──
-strings.xml         # Strings usadas no
-app
-
-
+│       ├──strings.xml                     # Strings usadas no app
 │   │   │  
-│       ├── colors.xml          # Cores definidas no projeto
-
-
-│   └── build.gradle                        # Configuração do
-Gradle
-
-
-└── README.md                               # Este arquivo
+│       ├── colors.xml                     # Cores definidas no projeto
+│   └── build.gradle                       # Configuração do Gradle
+└── README.md                              # Este arquivo
 ```
 ## 🎨 Design e Prototipagem
  
@@ -74,7 +64,7 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 ## 1. Tela Principal
    
-   Onde o cliente faz a escolha dos produtos e ao final, o app faz a somatória.
+   Após a seleção dos produtos no **CheckBox**, a somatória é realizada no botão **Fechar pedido**.
    
 ![Texto Alternativo](https://github.com/Kist19/appCompras/blob/main/telaprincipal_appcompras.jpg?raw=true)
 
