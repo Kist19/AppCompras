@@ -46,8 +46,8 @@ Siga os passos abaixo para rodar o projeto localmente:
 │   │   │  │   ├── layout
 │   │   │  │   │   ├── activity_main.xml   #Layout da tela principal
 │   │   │  │   └── values
-│   │   │  │       ├──strings.xml                     # Strings usadas no app
-│   │   │  │       ├── colors.xml                     # Cores definidas no projeto
+│   │   │  │       ├──strings.xml          # Strings usadas no app
+│   │   │  │       ├── colors.xml          # Cores definidas no projeto
 │   └── build.gradle                       # Configuração do Gradle
 └── README.md                              # Este arquivo
 ```
